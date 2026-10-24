@@ -1,13 +1,13 @@
 cask "spacewise" do
-  version "2.2.0"
+  version "2.2.1"
 
   on_arm do
-    sha256 "690335861a0d4ac27bb59e6824bf2434e3edb999d00cf3727bb09d2183511ff2"
+    sha256 "6c1d7ef56dae1a24afdfa75dd9c8408103592159b6595e281b448a7ac3435df0"
     url "https://github.com/Ojas13-git/spacewise-releases/releases/download/v#{version}/SpaceWise-arm64.dmg"
   end
 
   on_intel do
-    sha256 "5141c813bcb1127e962b3ecf676df173aabfad4ec116ff32f8ce5cb9e4032e0e"
+    sha256 "3cc8f458d357a85cdb93b3cfa0418117a0b26b8d8337c43c57136b0b0ef6c2aa"
     url "https://github.com/Ojas13-git/spacewise-releases/releases/download/v#{version}/SpaceWise-Universal.dmg"
   end
 
